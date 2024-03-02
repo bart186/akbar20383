@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Telefon Black";
+  src: url(//s.codepen.io/assets/telefon/black/3f32b1c9-8e26-465e-ae02-ff82a378b670-3.woff) format("woff"), url(//codepen.io/assets/telefon/black/3f32b1c9-8e26-465e-ae02-ff82a378b670-3.woff2) format("woff2");
+}
+body {
+  background: #3C2A42;
+  color: white;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Telefon Black";
+  font-size: 6vmin;
+  text-shadow: 1px 1px 0 #3C2A42, 2px 2px 0 #3C2A42, 3px 3px 0 #3C2A42;
+}
+
+a {
+  color: inherit;
+}
+
+button, .button {
+  font-family: "Telefon Black";
+  background: white;
+  color: #3C2A42;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 0;
+  text-decoration: none;
+  font-size: 26px;
+  box-shadow: 1px 1px 0 #3C2A42, 2px 2px 0 #3C2A42, 3px 3px 0 #3C2A42;
+}
+
+#reveal-gift {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  opacity: 0;
+}
+#reveal-gift p {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background: #755280;
+}
+
+#all-presents {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
